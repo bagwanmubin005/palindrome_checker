@@ -47,7 +47,7 @@ def main():
                         print "yes this string is palindrome"
                 else:
                         # The string is not a palidrome.
-                        print "no"
+                        print "no sorry :( "
                 return 0
         except:
                 print "unknown error, usage: %s [string]" % sys.argv[0]
