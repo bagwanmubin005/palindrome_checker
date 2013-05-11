@@ -29,6 +29,7 @@ def main():
 
                 # Because the lower() method does not support unicode,
                 # remove any non supported characters before comparing.
+                #this is the regular expression to take pattern containing a-z & A-Z
                 invalid_characters = re.compile( '[^a-zA-Z]')
                 #print invalid_characters       
                 # Replace invalid characters with a dot character.
