@@ -23,6 +23,7 @@ def main():
                 print "your Entered String is : "+string
                 # Remove special characters from string and set our string varialble
                 # to the resulting string returned.
+                #remove numbers, !, [,],:,;+- from input
                 string = special_characters.sub( '', string)
                 print "String after removing special numbers,punctuation marks,+,! : "+string
 
