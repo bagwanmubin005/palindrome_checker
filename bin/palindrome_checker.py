@@ -44,7 +44,7 @@ def main():
                 # Check if string is equal to the reversed string.
                 if reversed_string == string:
                         # The string is a palidrome.
-                        print "yes"
+                        print "yes this string is palindrome"
                 else:
                         # The string is not a palidrome.
                         print "no"
