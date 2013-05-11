@@ -34,7 +34,7 @@ def main():
                 #print invalid_characters       
                 # Replace invalid characters with a dot character.
                 string = invalid_characters.sub( '.', string)
-                #print "String after removing invalid characters (replaced with .) : "+string
+                print "String after removing invalid characters (replaced with .) : "+string
                 # Convert all upper case characters to lower case.
                 string = string.lower()
 
