@@ -19,7 +19,8 @@ def main():
 
                 # Compile regex matching digits, punctuation characters and blanks.
                 special_characters = re.compile( '[,;.:_!?0-9 -]+')
-                #print "your Entered String is : "+string
+                #print your entered string this may contain many unwanted characters
+                print "your Entered String is : "+string
                 # Remove special characters from string and set our string varialble
                 # to the resulting string returned.
                 string = special_characters.sub( '', string)
